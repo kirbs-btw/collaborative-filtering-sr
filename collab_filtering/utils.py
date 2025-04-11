@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import MultiLabelBinarizer
 
-class placeholder: 
+class Model: 
     def __init__(self, data: list[list[str]]):
         self.__mlb = MultiLabelBinarizer()
         self.item_similarity = self.train(data)
@@ -25,4 +25,5 @@ class placeholder:
         return recommended_items
 
     def recommend(self, target_data: list[str]):
-        return self.recommend_items[0]
+        # needs a fix here issue opened
+        return self.recommend_items(target_data)[0]

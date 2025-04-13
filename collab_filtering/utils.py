@@ -25,5 +25,4 @@ class Model:
         return recommended_items
 
     def recommend(self, target_data: list[str]):
-        # needs a fix here issue opened
-        return self.recommend_items(target_data)[0]
+        return self.recommend_items(target_data).idxmax()

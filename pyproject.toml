@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "collab-filtering"
-version = "0.1.0"
+version = "1.0.0"
 description = "A Python package for collaborative filtering"
 authors = [
     { name="Bastian Lipka", email="lipka.bastian04@gmail.com" }
